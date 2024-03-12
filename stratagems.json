@@ -1,0 +1,75 @@
+[{
+        "offensive":{
+            "eagle":{
+                "Eagle 500kg Bomb": "Eagle500icon.png",        
+                "Eagle Airstrike": "EagleAirstrikeicon.png",  
+                "Eagle Cluster Bomb":"EagleClusterbombicon.png",
+                "Eagle Napalm Strike":"EagleNapalmicon.png",
+                "Eagle 110MM Rocket Pods":"EagleRocketpodicon.png",
+                "Eagle Smoke Strike":"EagleSmokeicon.png",
+                "Eagle Strafing Run":"EagleStrafingicon.png"
+            },
+            "orbital":{
+                "Orbital 380MM HE Barrage":"Orbital380icon.png",
+                "Orbital 120MM HE Barrage":"Orbital120icon.png",
+                "Orbital Airbust Strike":"OrbitalAirbursticon.png",
+                "Orbital EMS Strike":"OrbitalEMSicon.png",
+                "Orbital Gas Strike":"OrbitalGasicon.png",
+                "Orbital Gatling Barrage":"OrbitalGatlingicon.png",
+                "Orbital Laser":"OrbitalLasericon.png",
+                "Orbital Precision Strike":"OrbitalPrecisionicon.png",
+                "Orbital Railcannon Strike":"OrbitalRailcannonicon.png",
+                "Orbital Smoke Strike":"OrbitalSmokeicon.png",
+                "Orbital Walking Barrage":"OrbitalWalkingicon.png"
+            }
+        },
+        "defensive":{
+            "sentry":{
+                "A/AC-8 Autocannon Sentry":"Autocannoasentryicon.png",
+                "A/M-23 EMS Mortar Sentry":"EMSmortaricon.png",
+                "A/G-16 Gatling Sentry":"Gatlingsentryicon.png",
+                "A/MG-43 Machine Gun Sentry":"MGsentryicon.png",
+                "A/MLS-4X Rocket Sentry":"Missilesentryicon.png",
+                "A/M-12 Mortar Sentry":"Mortarsentryicon.png"
+            },
+            "emplacement": {
+                "MD-I4 Incendiary Mines":"Fireminefieldicon.png",
+                "MD-6 Anti-Personnel Minefield":"Minefieldicon.png",
+                "FX-12 Shield Generator Relay":"Shieldrelayicon.png",
+                "E/MG-101 HMG Emplacement":"HMGTurreticon.png",
+                "A/ARC-3 Tesla Tower":"Teslaicon.png"
+                
+            }
+        },
+        "support":{
+            "support-weapon":{
+                "has-pack":{
+                    "AC-8 Autocannon":"AC-8icon.png",
+                    "FAF-14 SPEAR Launcher":"FAF-14icon.png",
+                    "GR-8 Recoilless Rifle":"GR-8icon.png"
+                },
+                "standalone":{
+                    "EAT-17 Expendable Anti-tank":"EAT-17icon.png",
+                    "APW-1 Anti-Materiel Rifle":"APW-1icon.png",
+                    "ARC-3 Arc Thrower":"ARC-3icon.png",
+                    "FLAM-40 Flamethrower":"FLAM-40icon.png",
+                    "GL-21 Grenade Launcher":"GL-21icon.png",
+                    "LAS-98 Laser Cannon":"LAS-98icon.png",
+                    "M-105 Stalwart":"M-105icon.png",
+                    "MG-43 Machine Gun":"MG-43icon.png",
+                    "RS-422 Railgun":"RS-422icon.png"
+                }
+            },
+            "support-backpack":{
+                "AX/AR-23 \"Guard Dog\"":"AX-AR-23icon.png",
+                "AX/LAS-5 \"Guard Dog\" Rover":"AX-LAS-5icon.png",
+                "B-1 Supply Pack":"B-1icon.png",
+                "LIFT-850 Jump Pack":"LIFT-850icon.png",
+                "SH-20 Ballistic Shield Backpack":"SH-20icon.png",
+                "SH-32 Shield Generator Pack":"SH-32icon.png"
+            },
+            "support-other":{
+                "EXO-45 Patriot Exosuit":"EXO45icon.png"
+            }
+        }
+}]

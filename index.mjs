@@ -71,10 +71,12 @@ fillStratContainer(
     stratObj.support
 );
 
-const reset = () => {
+const reset = (level = 'hard') => {
     document.querySelectorAll('.strat-img').forEach((elem) => {
-        elem.classList.add('enabled');
-        elem.classList.remove('disabled');
+        if (level == 'hard') {
+            elem.classList.add('enabled');
+            elem.classList.remove('disabled');
+        }
         elem.classList.remove('highlighted');
     });
 
@@ -84,7 +86,7 @@ const reset = () => {
 document
     .querySelector('#stratagem-reset-button')
     .addEventListener('click', () => {
-        reset();
+        reset('hard');
     });
 
 document.querySelector('#generate-stratagems').addEventListener('click', () => {
@@ -94,7 +96,7 @@ document.querySelector('#generate-stratagems').addEventListener('click', () => {
         '#support-weapon-input'
     ).checked;
 
-    reset();
+    reset('soft');
     if (!rolls) rolls = 4;
     if (rolls < 1) rolls = 1;
     if (rolls > 4) rolls = 4;

@@ -45,7 +45,7 @@ body{
 }
 
 .strat-img{
-    padding: 2px;
+    margin: 2px;
     width: 40px;
     height: 40px;
 }
@@ -56,4 +56,23 @@ body{
 
 .disabled{
     filter: sepia(0%) hue-rotate(0deg) brightness(75%) saturate(10%);
+}
+
+.highlighted{
+    border: 4px rgb(255, 255, 0) solid;
+    width: 36px;
+    height: 36px;
+}
+
+
+#random-container{
+    display: flex;
+    padding: 10px;
+    width: max-content;
+    max-width: 30vw;
+    flex-flow: wrap;
+}
+
+#random-container button{
+    margin: 5px;
 }

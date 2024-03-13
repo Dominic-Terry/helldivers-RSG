@@ -27,15 +27,15 @@ body{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    max-width: 700px;
+    max-width: 1400px;
     height: auto;
     justify-content:space-around;
 }
 
 .strat-container{
-    width: 200px;
-    min-width: 200px;
-    max-width: 200px;
+    width: 400px;
+    min-width: 400px;
+    max-width: 400px;
     height: min-content;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -45,9 +45,9 @@ body{
 }
 
 .strat-img{
-    margin: 2px;
-    width: 40px;
-    height: 40px;
+    margin: 4px;
+    width: 80px;
+    height: 80px;
 }
 
 .enabled{
@@ -59,9 +59,9 @@ body{
 }
 
 .highlighted{
-    border: 4px rgb(255, 255, 0) solid;
-    width: 36px;
-    height: 36px;
+    border: 8px rgb(255, 255, 0) solid;
+    width: 64px;
+    height: 64px;
 }
 
 
@@ -69,10 +69,24 @@ body{
     display: flex;
     padding: 10px;
     width: max-content;
-    max-width: 30vw;
+    max-width: 60vw;
     flex-flow: wrap;
 }
 
 #random-container button{
+    margin: 10px;
+    height: 2.5em;
+}
+
+#random-container input[type="number"]{
     margin: 5px;
+    height: 2.5em;
+    width: 6em;
+}
+
+#random-container input[type='checkbox']{
+    padding: 10px;
+    margin-left: 2em;
+    height: 2.5em;
+    width: 3em;
 }
